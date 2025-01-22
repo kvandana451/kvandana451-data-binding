@@ -10,6 +10,8 @@ import { RouterOutlet } from '@angular/router';
 export class AppComponent {
   title = 'my-app';
   isActive = true;
+  backGroundColor = 'pink';
+  color = 'green';
   toggle() {
     this.isActive = !this.isActive;
   }
