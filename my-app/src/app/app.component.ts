@@ -15,4 +15,6 @@ export class AppComponent {
   toggle() {
     this.isActive = !this.isActive;
   }
+  imageUrl = 'https://picsum.photos/200/300';
+  isDisabled = true;
 }
