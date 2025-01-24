@@ -18,9 +18,15 @@ export class AppComponent {
   }
   imageUrl = 'https://picsum.photos/200/300';
   isDisabled = true;
-  toggleFunc() {
-    this.isActive = !this.isActive;
+  changeInput(value: any) {
+    console.log(
+      'Soon as the input field like <input>,<select> looses focus,changeInput() is triggered'
+    );
+    console.log(value);
   }
-  bgColor = 'red';
-  clr = 'white';
+  isApplied = true;
+  toggleFunc() {
+    this.isApplied = !this.isApplied;
+  }
+  txtColor = 'yellow';
 }
