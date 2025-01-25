@@ -22,14 +22,4 @@ export class InputComponent {
       val
     );
   }
-  hero = 'xyz';
-  onHeroChange(value: any) {
-    console.log(
-      'As soon as each change in the input field happens everytime,onHeroChange() triggers to perform additional logic. already we get the value in the input field in that hero property because of 2 way binding',
-      value
-    );
-  }
-  onChange(val: any) {
-    console.log(val.target.value);
-  }
 }
